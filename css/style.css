@@ -34,14 +34,25 @@ RESET
 
 }
 
-.user-image {
-  width: 160px;
+.cam-container {
+  width: 164px;
   height: 120px;
   background-image: url(https://picsum.photos/200/300);
   background-position: center;
   color: white;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: end;
   font-size: 12px;
+}
+
+.backround-text{
+
+  background-color: rgba(194, 189, 189, 0.49)
+}
+
+.backround-text{
+
+  padding: 4px;
+
 }
