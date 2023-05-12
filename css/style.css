@@ -70,8 +70,8 @@ header {
   justify-content: center;
   align-items: center;
   gap: 8px;
-  height:calc(90vh - 100px);
-  margin-top: 10px;
+  min-height: 91vh;
+  padding-bottom: 50px;
 
 }
 
@@ -95,5 +95,69 @@ header {
 .backround-text{
 
   padding: 4px;
+
+}
+
+/* 
+
+FOOTER
+
+*/
+footer {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #23282D;
+  padding: 20px;
+}
+
+.footer-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+  margin-right: 15px;
+}
+
+.footer-icon i {
+  margin-bottom: 5px;
+}
+
+.footer-icon span {
+  text-align: center;
+}
+
+.footer-center {
+  display: flex;
+}
+.footer-left{
+
+  display: flex;
+
+}
+
+.gestures{
+
+font-size: 30px;
+
+}
+
+.end-meeting{
+  color: red;
+  font-weight: bold;
+
+}
+
+.screen{
+
+  color: greenyellow;
+
+}
+
+.gestures{
+
+  font-size: 2em;
 
 }
